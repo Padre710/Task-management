@@ -1,0 +1,34 @@
+### Task Overview:
+User Management:
+•⁠  ⁠Implement user registration and login with JWT authentication.
+•⁠  ⁠User roles: Admin and Regular User.
+•⁠  ⁠Only Admins can create other Admins.
+
+
+Task Management:
+•⁠  ⁠Users can create tasks with a title, description, due date, and status (e.g., To-Do, In Progress, Completed).
+•⁠  ⁠Users can assign tasks to themselves or others.
+•⁠  ⁠Users can update the status of their own tasks.
+•⁠  ⁠Admins can update the status of any task.
+
+Tagging System:
+•⁠  ⁠Users can add tags to tasks (e.g., "Urgent", "Bug", "Feature").
+•⁠  ⁠Users can filter tasks by tag.
+
+Commenting System:
+•⁠  ⁠Users can add comments to tasks.
+•⁠  ⁠Users can edit or delete their own comments.
+•⁠  ⁠Admins can delete any comment.
+
+Notifications:
+•⁠  ⁠Notify users when they are assigned a task or when the status of a task they are involved in is updated.
+•⁠  ⁠(Optional) Real-time notifications using WebSockets.
+
+Validation:
+•⁠  ⁠Implement payload validation for all endpoints (e.g., valid email format, required fields, etc.).
+
+Pagination & Sorting:
+•⁠  ⁠Implement pagination and sorting for tasks (e.g., sort by due date, filter by status).
+
+Database:
+•⁠  ⁠Use any relational database (e.g., PostgreSQL, MySQL) and provide migrations for setting up the database schema.
